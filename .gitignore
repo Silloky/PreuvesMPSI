@@ -8,6 +8,7 @@
 .obsidian/plugins/obsidian-git/*
 !.obsidian/plugins/obsidian-latex-suite/
 .obsidian/plugins/obsidian-latex-suite/*
+.obsidian/plugins/math-in-callout
 
 # Whitelist only these files
 !.obsidian/core-plugins.json
