@@ -4,6 +4,7 @@ raisonnements:
 outils:
   - binom
   - factorielle
+kh_n:
 ---
 # Formule du capitaine
 

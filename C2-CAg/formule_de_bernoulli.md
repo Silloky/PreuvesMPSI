@@ -4,6 +4,8 @@ raisonnements:
 outils:
   - sommes
   - telescopage
+kh_n:
+  - "1"
 ---
 # Formule de Bernoulli
 

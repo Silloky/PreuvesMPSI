@@ -4,6 +4,8 @@ raisonnements:
   - recurrence
 outils:
   - sommes
+kh_n:
+  - "1"
 ---
 # Somme des $n$ premiers cubes
 

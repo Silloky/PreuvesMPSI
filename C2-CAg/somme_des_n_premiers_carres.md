@@ -1,9 +1,11 @@
 ---
-anki_linked: 0
+anki_linked: 1
 raisonnements:
   - recurrence
 outils:
   - sommes
+kh_n:
+  - "1"
 ---
 # Somme des $n$ premiers carrés
 

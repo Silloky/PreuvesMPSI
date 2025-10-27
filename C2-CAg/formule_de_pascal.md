@@ -5,6 +5,7 @@ raisonnements:
 outils:
   - binom
   - factorielle
+kh_n:
 ---
 # Formule de Pascal
 

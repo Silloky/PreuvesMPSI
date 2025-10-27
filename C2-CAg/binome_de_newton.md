@@ -5,6 +5,8 @@ raisonnements:
 outils:
   - sommes
   - binom
+kh_n:
+  - "1"
 ---
 # Formule du binôme de Newton
 
