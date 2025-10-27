@@ -1,5 +1,10 @@
 ---
 anki_linked: 1
+raisonnements:
+  - recurrence
+outils:
+  - sommes
+  - binom
 ---
 # Formule du binôme de Newton
 
@@ -13,8 +18,8 @@ Soit $(a,b)\in \mathbb{R}^{2}$
 Pour tout $n\in \mathbb{N}$, on pose $H_{n}:(a+b)^n=\sum_{k=0}^{n}{n \choose k}a^kb^{n-k}$
 
 *Initialisation* :
-$(a+b)^0=1$ et $\sum_{k=0}^{0}{0 \choose k}a^kb^{0-k}={0 \choose 0}a^0b^0=1$
-Donc $H_{0}$ est vraie.
+En $0$ : $(a+b)^0=1$ et $\sum_{k=0}^{0}{0 \choose k}a^kb^{0-k}={0 \choose 0}a^0b^0=1$
+Donc $H_{0}$ est vraie et $H_{n}$ est initialisée en $0$.
 
 *Hérédité* :
 Soit $n\in \mathbb{N}$. On suppose $H_{n}$.

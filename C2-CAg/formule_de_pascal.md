@@ -1,5 +1,10 @@
 ---
 anki_linked: 1
+raisonnements:
+  - disjonction_de_cas
+outils:
+  - binom
+  - factorielle
 ---
 # Formule de Pascal
 

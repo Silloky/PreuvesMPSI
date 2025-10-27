@@ -1,3 +1,8 @@
+---
+anki_linked: 0
+raisonnements:
+outils:
+---
 # {{title}}
 
 > [!objectif]

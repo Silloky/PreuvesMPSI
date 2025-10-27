@@ -1,5 +1,9 @@
 ---
 anki_linked: 1
+raisonnements:
+outils:
+  - binom
+  - factorielle
 ---
 # Formule du capitaine
 
