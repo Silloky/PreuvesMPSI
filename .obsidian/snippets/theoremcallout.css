@@ -1,0 +1,5 @@
+.callout[data-callout='objectif'] {
+    --callout-color: var(--accent-6);
+    --callout-icon: brain;
+    border: solid white 1px;
+}

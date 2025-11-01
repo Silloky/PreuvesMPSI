@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "anki_linked": "number",
+    "raisonnements": "multitext",
+    "outils": "multitext",
+    "kh_n": "multitext"
+  }
+}
