@@ -6,6 +6,7 @@ outils:
   - telescopage
 kh_n:
   - "1"
+display_title: Formule de Bernoulli
 ---
 # Formule de Bernoulli
 

@@ -6,6 +6,7 @@ outils:
   - sommes
 kh_n:
   - "1"
+display_title: Somme des n premiers cubes
 ---
 # Somme des $n$ premiers entiers
 

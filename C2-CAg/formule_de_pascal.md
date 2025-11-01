@@ -6,6 +6,7 @@ outils:
   - binom
   - factorielle
 kh_n:
+display_title: Formule de Pascal
 ---
 # Formule de Pascal
 

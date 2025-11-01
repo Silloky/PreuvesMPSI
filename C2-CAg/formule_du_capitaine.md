@@ -5,6 +5,7 @@ outils:
   - binom
   - factorielle
 kh_n:
+display_title: Formule du capitaine
 ---
 # Formule du capitaine
 

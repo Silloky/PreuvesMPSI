@@ -6,6 +6,7 @@ outils:
   - binom
 kh_n:
   - "1"
+display_title: Somme k*(k parmi n)
 ---
 # Calculer $\sum_{k=0}^{n}k{n \choose k}$
 

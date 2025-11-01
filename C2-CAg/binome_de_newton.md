@@ -7,6 +7,7 @@ outils:
   - binom
 kh_n:
   - "1"
+display_title: Formule du binôme de Newton
 ---
 # Formule du binôme de Newton
 

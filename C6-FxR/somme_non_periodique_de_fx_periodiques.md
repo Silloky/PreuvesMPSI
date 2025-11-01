@@ -4,8 +4,10 @@ raisonnements:
   - disjonction_de_cas
   - absurde
 outils:
+  - périodicité
 kh_n:
   - "4"
+display_title: Fonction somme non-périodique de fonctions périodiques
 ---
 # Fonction somme non-périodique de fonctions périodiques 
 

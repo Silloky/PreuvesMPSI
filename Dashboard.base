@@ -1,0 +1,47 @@
+filters:
+  and:
+    - file.path.startsWith("C")
+formulas:
+  Title: link(file,note.display_title)
+properties:
+  note.display_title:
+    displayName: display_name
+  note.anki_linked:
+    displayName: Lié Anki
+  note.kh_n:
+    displayName: Khôlles
+  note.raisonnements:
+    displayName: Raisonnements
+  file.folder:
+    displayName: Chapitre
+  formula.Title:
+    displayName: Titre
+views:
+  - type: table
+    name: Table
+    order:
+      - formula.Title
+      - file.folder
+      - kh_n
+      - raisonnements
+      - outils
+      - anki_linked
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+      - property: outils
+        direction: DESC
+      - property: display_title
+        direction: DESC
+      - property: file.folder
+        direction: ASC
+      - property: kh_n
+        direction: ASC
+      - property: file.name
+        direction: DESC
+      - property: formula.Untitled
+        direction: ASC
+    columnSize:
+      formula.Title: 366
+      note.anki_linked: 84

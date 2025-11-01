@@ -3,8 +3,10 @@ anki_linked: 0
 raisonnements:
   - disjonction_de_cas
 outils:
+  - composition
 kh_n:
   - "4"
+display_title: Monotonie de la composée de fonctions monotones
 ---
 # Monotonie de la composée de fonctions monotones
 

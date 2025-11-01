@@ -6,6 +6,7 @@ outils:
   - morphisme
 kh_n:
   - "4"
+display_title: Endomorphismes dérivables de R
 ---
 # Endomorphismes dérivables de $\mathbb{R}$
 
