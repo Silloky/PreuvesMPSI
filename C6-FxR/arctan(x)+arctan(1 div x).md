@@ -6,7 +6,7 @@ outils:
   - arctrigo
 kh_n:
   - "4"
-display_title: Calcul de arctan(x)+arctan(1/x)
+display_title: arctan(x)+arctan(1/x)
 ---
 # Calcul de $\arctan(x)+\arctan\left( \frac{1}{x} \right)$
 
