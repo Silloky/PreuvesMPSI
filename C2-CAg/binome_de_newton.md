@@ -19,11 +19,11 @@ kh_n:
 Soit $(a,b)\in \mathbb{R}^{2}$
 Pour tout $n\in \mathbb{N}$, on pose $H_{n}:(a+b)^n=\sum_{k=0}^{n}{n \choose k}a^kb^{n-k}$
 
-*Initialisation* :
+***Initialisation*** :
 En $0$ : $(a+b)^0=1$ et $\sum_{k=0}^{0}{0 \choose k}a^kb^{0-k}={0 \choose 0}a^0b^0=1$
 Donc $H_{0}$ est vraie et $H_{n}$ est initialisée en $0$.
 
-*Hérédité* :
+***Hérédité*** :
 Soit $n\in \mathbb{N}$. On suppose $H_{n}$.
 $$
 \begin{align}
@@ -40,7 +40,7 @@ $$
 $$
 Donc $H_{n+1}$ est vraie, donc $H_{n}$ est héréditaire.
 
-*Conclusion* :
+***Conclusion*** :
 $$
 \forall n\in \mathbb{N},\forall(a,b)\in \mathbb{R}^{2},(a+b)^n=\sum_{k=0}^{n}{n \choose k}a^kb^{n-k}
 $$

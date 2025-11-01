@@ -17,11 +17,11 @@ kh_n:
 
 Pour tout $n\in \mathbb{N}$, on pose $H_{n}:\sum_{k=0}^{n}k^{2}=\left( \sum_{k=0}^{n}k \right)^2$
 
-*Initialisation* :
+***Initialisation*** :
 En $0$ : $\sum_{k=0}^{0}k^3=0$ et $\left( \sum_{k=0}^{0}k \right)^2=0$
 Donc $H_{0}$ est vraie et $H_{n}$ est initialisée en $0$.
 
-*Hérédité* :
+***Hérédité*** :
 Soit $n\in \mathbb{N}$. On suppose $H_{n}$.
 $$
 \begin{align}
@@ -33,7 +33,7 @@ $$
 $$
 Donc $H_{n+1}$ est vraie et $H_{n}$ est héréditaire.
 
-*Conclusion* :
+***Conclusion*** :
 $$
 \forall n\in \mathbb{N},\sum_{k=0}^{n}k^{2}=\left( \sum_{k=0}^{n}k \right)^2
 $$
