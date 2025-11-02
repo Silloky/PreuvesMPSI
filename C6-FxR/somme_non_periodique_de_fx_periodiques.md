@@ -4,7 +4,7 @@ raisonnements:
   - disjonction_de_cas
   - absurde
 outils:
-  - périodicité
+  - periodicite
 kh_n:
   - "4"
 display_title: Fonction somme non-périodique de fonctions périodiques
