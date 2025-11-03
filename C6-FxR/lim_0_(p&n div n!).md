@@ -33,7 +33,7 @@ Or $M+k \geq M$ donc $\frac{u_{M+k+1}}{u_{M+k}}\leq \frac{1}{2}$ donc $u_{M+k+1}
 Or par hypothèse de récurrence, $u_{M+k}\leq \frac{1}{2^k}u_{M}$ donc $\frac{1}{2}u_{M+k}\leq \frac{1}{2^{k+1}}u_{M}$ donc $u_{M+k+1}\leq  \frac{1}{2^{k+1}}u_{M}$
 Donc $H_{k+1}$ est vraie et $H_{k}$ est héréditaire.
 
-***Conclusion*** : $\forall k\in \mathbb{N}^*, \frac{u_{M+k}\leq_{1}}{2^k}u_{M}$
+***Conclusion*** : $\forall k\in \mathbb{N}^*, u_{M+k}\leq \frac{1}{2^k}u_{M}$
 
 
 Donc $\forall n\geq M, 0\leq u_{n} \leq \left( \frac{1}{2} \right)^{n-M}u_{M}\xrightarrow[n\to +\infty]{}0$
