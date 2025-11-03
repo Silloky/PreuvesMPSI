@@ -2,7 +2,7 @@
 anki_linked: 1
 raisonnements:
 outils:
-  - arctrigo
+  - trigo
 kh_n:
   - "4"
 display_title: sin(arccos(x))

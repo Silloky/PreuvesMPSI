@@ -2,7 +2,7 @@
 anki_linked: 1
 raisonnements:
 outils:
-  - arctrigo
+  - trigo
 kh_n:
 display_title: arcsin(x)+arccos(x)
 ---

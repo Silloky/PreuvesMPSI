@@ -3,7 +3,7 @@ anki_linked: 0
 raisonnements:
   - disjonction_de_cas
 outils:
-  - arctrigo
+  - trigo
 kh_n:
   - "4"
 display_title: arctan(x)+arctan(1/x)
