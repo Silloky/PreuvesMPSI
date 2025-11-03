@@ -22,7 +22,7 @@ display_title: Théorème de la dérivabilité de la bijection réciproque
 Soit  $f:I\to J$  une bijection (monotone). On suppose $f$ dérivable sur $I$ et que $f'$ ne s'annule pas sur $I$
 Soit $x_{0} \in I$ ; on pose $y_{0}=f(x_{0})$.
 
-Soit $y \in J$ tel que $y\neq y_{0}$. On pose $y=f^{-1}(y)$. Alors on a :$$
+Soit $y \in J$ tel que $y\neq y_{0}$. On pose $x=f^{-1}(y)$. Alors on a :$$
 \frac{f^{-1}(y)-f^{-1}(y_{0})}{y-y_{0}}=\frac{x-x_{0}}{f(x)-f(x_{0})}=\frac{1}{\frac{f(x)-f(x_{0})}{x-x_{0}}}
 $$Or quand $y\to y_{0}$, comme $f^{-1}$ est continue (d'après le théorème de la bijection monotone), $x\to x_{0}$.
 Donc : $\frac{f(x)-f(x_{0})}{x-x_{0}}\to f'(x_{0})$ lorsque $y\to y_{0}$
