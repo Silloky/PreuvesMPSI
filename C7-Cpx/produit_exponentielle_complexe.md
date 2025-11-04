@@ -2,7 +2,6 @@
 anki_linked: 0
 raisonnements:
 outils:
-  - trigo
 kh_n:
 display_title: Produit d'exponentielles complexes
 ---

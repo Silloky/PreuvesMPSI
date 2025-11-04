@@ -3,7 +3,7 @@ anki_linked: 0
 raisonnements:
 outils:
 kh_n:
-display_title:
+display_title: Conjugué de la forme exponentielle complexe
 ---
 # Conjugué de la forme exponentielle complexe
 
