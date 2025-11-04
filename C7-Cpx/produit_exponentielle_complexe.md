@@ -2,10 +2,11 @@
 anki_linked: 0
 raisonnements:
 outils:
+  - trigo
 kh_n:
-display_title: produit_exponentielle_complexe
+display_title: Produit d'exponentielles complexes
 ---
-# Untitled
+# Produit d'exponentielles complexes
 
 > [!objectif]
 >$$
