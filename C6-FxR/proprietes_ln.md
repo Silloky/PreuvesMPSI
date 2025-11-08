@@ -21,9 +21,9 @@ display_title: Propriétés de ln
 > 4. $\forall (a,b)\in (\mathbb{R}_{+}^*)^{2},\ln(ab)=\ln(a)+\ln(b)$
 > 5. $\forall (a,b)\in (\mathbb{R}_{+}^*)^{2},\ln\left( \frac{a}{b} \right)=\ln(a)-\ln(b)$
 > 6. $\forall a\in \mathbb{R}_{+}^*,\ln\left( \frac{1}{a} \right)=-\ln(a)$
-> 7. $\lim_{ x \to +\infty }\ln(x)=+\infty$
-> 8. $\lim_{ x \to -\infty }\ln(x)=-\infty$
-> 9. $\forall a\in \mathbb{R}_{+}^*, \forall n \in \mathbb{N},\ln(a^n)=n\ln(a)$
+> 7. $\forall a\in \mathbb{R}_{+}^*, \forall n \in \mathbb{N},\ln(a^n)=n\ln(a)$
+> 8. $\lim_{ x \to +\infty }\ln(x)=+\infty$
+> 9. $\lim_{ x \to -\infty }\ln(x)=-\infty$
 > 10. Il existe un unique réel noté $e$ tel que $\ln(e)=1$
 > 11. $\lim_{ x \to 0^+ } \frac{\ln(1+x)}{x}=1$
 ### Démonstration
@@ -61,52 +61,49 @@ Donc $\ln\left( \frac{a}{b} \right)=\ln(a)-\ln(b)$
 C'est un cas particulier de la propriété précédente.
 Soit $a \in \mathbb{R}_{+}^*$.
 $\ln\left( \frac{1}{a} \right)=\ln(1)-\ln(a)=-\ln(a)$
-##### 7. $\lim_{ x \to +\infty }\ln(x)=+\infty$
+##### 7. $\forall a\in \mathbb{R}_{+}^*, \forall n \in \mathbb{N},\ln(a^n)=n\ln(a)$
 
-==???????????????==
+*Par récurrence évidente* :
+Pour tout $n\in \mathbb{N}$, on pose $H_{n}:\forall a\in \mathbb{R}_{+}^*, \ln(a^n)=n\ln(a)$
+***Initialisation*** :
+En $0$ : $\ln(a^0)=\ln(1)=0$ et $0\ln(a)=0$
+Donc $H_{0}$ est vraie et $H_{n}$ est initialisée en $0$.
+***Hérédité*** :
+Soit $n\in \mathbb{N}$. On suppose $H_{n}$.
+$\ln(a^{n+1})=\ln(a^n\times a)=\ln(a^n)+ \ln(a)=n\ln(a)+\ln(a)=(n+1)\ln(a)$
+Donc $H_{n+1}$ est vraie et $H_{n}$ est héréditaire.
+##### 8. $\lim_{ x \to +\infty }\ln(x)=+\infty$
 
-##### 8. $\lim_{ x \to 0^+ }\ln(x)=-\infty$
+Soit $M\in \mathbb{R}$.
+On a $2>1$, donc puisque $\ln$ est strictement croissante sur $\mathbb{R}_{+}$, $\ln(2)>\ln(1)=0$. Donc $\ln(2)$ est positif.
+D'après le caractère archimédien des réels, il existe $n\in \mathbb{N}$ tel que $n\ln(2)\geq M$
+On pose $A=2^n$.
+Soit $x\geq A$. Donc $\ln(x)\geq \ln(2^n)=n\ln(2)\geq M$.
+Donc $x\geq M$.
+Ainsi, on a bien : $\forall M\in \mathbb{R},\exists A\in \mathbb{R}_{+}^*,\forall x \geq A,f(x)\geq M$, qui est la définition d'une limite en $+\infty$ en $+\infty$.
+Donc $\lim_{ x \to +\infty }\ln(x)=+\infty$.
+
+##### 9. $\lim_{ x \to 0^+ }\ln(x)=-\infty$
 
 On sait que $\frac{1}{x}\xrightarrow[x\to 0^+]{}+\infty$ et que $\ln(x)\xrightarrow[x\to +\infty]{}+\infty$
 Donc par composition $\ln\left( \frac{1}{x} \right)\xrightarrow[x\to 0^+]{}+\infty$
 Or $\ln\left( \frac{1}{x} \right)=-\ln(x)$
 Donc on a $-\ln(x)\xrightarrow[x\to 0^+]{}+\infty$.
 Ainsi, $\lim_{ x \to 0^+ }$
-
-##### 9. $\forall a\in \mathbb{R}_{+}^*, \forall n \in \mathbb{N},\ln(a^n)=n\ln(a)$
-
-Pour tout $n\in \mathbb{N}$, on pose $H_{n}:\forall a\in \mathbb{R}_{+}^*, \ln(a^n)=n\ln(a)$
-
-***Initialisation*** :
-En $0$ : $\ln(a^0)=\ln(1)=0$ et $0\ln(a)=0$
-Donc $H_{0}$ est vraie et $H_{n}$ est initialisée en $0$.
-
-***Hérédité*** :
-Soit $n\in \mathbb{N}$. On suppose $H_{n}$.
-$\ln(a^{n+1})=\ln(a^n\times a)=\ln(a^n)+ \ln(a)=n\ln(a)+\ln(a)=(n+1)\ln(a)$
-Donc $H_{n+1}$ est vraie et $H_{n}$ est héréditaire.
-
-***Conclusion*** :
 $$
 \forall a\in \mathbb{R}_{+}^*, \forall n \in \mathbb{N},\ln(a^n)=n\ln(a)
 $$
 ##### 10. Il existe un unique réel noté $e$ tel que $\ln(e)=1$
 
-On sait que par définition de $\ln$ : $\ln(4)=\int_{1}^{4} \frac{1}{x} \, \mathrm{d}x=\int_{1}^{2} \frac{1}{x} \, \mathrm{d}x+\int_{2}^{4} \frac{1}{x} \, \mathrm{d}x$
-Or :
-* sur $[1,2]$, $\frac{1}{x}> \frac{1}{2}$, donc $\int_{1}^{2} \frac{1}{x} \, \mathrm{d}x> \frac{1}{2}(2-1)=\frac{1}{2}$
-* sur $[2,4]$, $\frac{1}{x} > \frac{1}{4}$, donc $\int_{2}^{4} \frac{1}{x} \, \mathrm{d}x> \frac{1}{4}(4-2)=\frac{1}{2}$
-Donc $\ln(4)> \frac{1}{2}+\frac{1}{2}=1$
-Or $\ln(1)=0$, donc puisque $\ln$ est continue (car dérivable) sur $[1,4]$, d'après le théorème des valeurs intermédiaires, comme $1\in[0,1]$, il existe un réel qu'on peut noter $e$ tel que $f(e)=1$.
-De plus, on a vu que $\ln$ est strictement croissante sur $\mathbb{R}_{+}^*$, donc elle y réalise, d'après le théorème de la bijection monotone, une bijection. Donc ce réel $e$ solution de $f(x)=1$ est unique.
-Ainsi, il existe un unique réel $e$ tel que $\ln(e)=1$.
+On sait que $\ln$ réalise une bijection de $\mathbb{R}_{+}^*$ dans $\mathbb{R}$ donc, puisque $1\in \mathbb{R}$, on peut affirmer que $1$ admet un unique antécédent dans $\mathbb{R}_{+}^*$, que l'on peut noter $e$.
+
 ##### 11. $\lim_{ x \to 0^+ } \frac{\ln(1+x)}{x}=1$
 
 On sait que $\ln$ est dérivable sur $\mathbb{R}_{+}^*$, donc en particulier :
-$\ln'(1)=\lim_{ x \to 1^+ } \frac{\ln(x)-\ln(1)}{x-1}=\lim_{ x \to 1^+ } \frac{\ln(x)}{x-1}$
-En changeant d'indice : $\ln'(1)=\lim_{ x \to 0^+ } \frac{\ln(x+1)}{x}$
-Or on sait que $\ln'(1)=\frac{1}{1}=1$
-Ainsi, $\lim_{ x \to 0^+ } \frac{\ln(1+x)}{x}=1$
+$\ln'(1)=\lim_{ x \to 1 } \frac{\ln(x)-\ln(1)}{x-1}=\lim_{ x \to 1 } \frac{\ln(x)}{x-1}$
+Or $\ln'(1)=\frac{1}{1}=1$, donc $\lim_{ x \to 1 } \frac{\ln(x)}{x-1}=1$
+De plus, $\lim_{ x \to 0^+ }(1+x)=1$, donc par composition, on obtient que $\lim_{ x \to 0^+ } \frac{\ln(1+x)}{x}=1$
+
 
 #### Remarques
 
