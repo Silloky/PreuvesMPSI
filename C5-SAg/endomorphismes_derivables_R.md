@@ -17,7 +17,6 @@ display_title: Endomorphismes dérivables de R
 ***Analyse*** :
 
 Soit $f$ un endomorphisme de $\mathbb{R}$ dérivable sur $\mathbb{R}$.
-Donc par définition, $f:\mathbb{R}\to \mathbb{R}$ et $\forall(x,y)\in \mathbb{R}, f(x+y)=f(x)+f(y)$.
 
 Soit $y\in \mathbb{R}$.
 On pose : 
@@ -38,7 +37,7 @@ f_{1}'(x)&=f'(x+y)\times 1
 $$
 De même, $f_{2}$ est dérivable sur $\mathbb{R}$ et $\forall x \in \mathbb{R},f_{2}'(x)=f'(x)+0$ (puisque $y$ est une constante).
 
-Par hypothèse, $f_{1}=f_{2}$, donc $f_{1}'=f_{2}'$. En particulier, $f'(y)=f'(0)$.
+Par hypothèse (d'endomorphisme), $f_{1}=f_{2}$, donc $f_{1}'=f_{2}'$. En particulier, $f'(y)=f'(0)$.
 On pose $a=f'(0)$, ainsi $\forall x \in \mathbb{R},f'(x)=a$ (car $f'(y)$ ne dépend pas de $y$).
 
 On pose $g:x\mapsto f(x)-ax$.
