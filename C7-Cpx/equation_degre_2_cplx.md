@@ -1,5 +1,5 @@
 ---
-anki_linked: 0
+anki_linked: 1
 raisonnements:
   - disjonction_de_cas
 outils:

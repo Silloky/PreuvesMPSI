@@ -1,11 +1,12 @@
 ---
-anki_linked: 0
+anki_linked: 1
 raisonnements:
   - double_implication
   - disjonction_de_cas
 outils:
   - module
 kh_n:
+  - "5"
 display_title: Inégalités triangulaires complexes
 ---
 # Inégalités triangulaires complexes
