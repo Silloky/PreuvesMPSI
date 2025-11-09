@@ -5,7 +5,7 @@
 3. Déterminer la [[monotonie_composition_fx_monotones|monotonie d'une composée de fonctions monotones]]
 4. Déterminer la [[monotonie_bijection_reciproque|monotonie de la bijection réciproque d'une bijection monotone]]
 5. Calculer [[arctan(x)+arctan(1_div_x)|arctan(x)+arctan(1/x)]]
-6. Exprimer [[cos(arcsin(x))]] et [[sin(arccos(x))]] en fonction de $x$
+6. Exprimer [[cos(arcsin(x))_et_sin(arccos(x))]] en fonction de $x$
 7. Exprimer [[arcsin(x)+arccos(x)]] en fonction de $x$
 8. Calculer [[lim_0_((cos(x)-1)_div_x²)]]
 9. Énoncer le [[theo_derivabilite_bijection_reciproque|théorème de dérivabilité de la bijection réciproque]] et l'appliquer au calcul de la [[derivee_arctan|dérivée de arctan]]
