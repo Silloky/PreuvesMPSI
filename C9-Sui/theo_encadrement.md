@@ -1,5 +1,5 @@
 ---
-anki_linked: 0
+anki_linked: 1
 raisonnements:
 outils:
   - suites
@@ -7,7 +7,7 @@ kh_n:
   - "7"
 display_title: Théorème des gendarmes
 ---
-# Théorème des gendarmes
+# Théorème d'encadrement
 
 > [!objectif]
 > $$
