@@ -5,9 +5,9 @@ outils:
   - suites
   - limites
 kh_n:
-display_title: Théorème de la limite monotone
+display_title: Théorème de la limite monotone (suites)
 ---
-# Théorème de la limite monotone
+# Théorème de la limite monotone (suites)
 
 > [!objectif]
 >1. Toute suite croissante et majorée converge
