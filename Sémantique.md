@@ -42,3 +42,4 @@ Abbréviations communes aussi :
 | Changement d'organisation<br>(renommage de propriétés, de tags) | org     |
 | Ajout ou modification d'un template                             | tmt     |
 | Modification des macros de maths                                | mac     |
+| Ajout d'un programme de khôlle                                  | kh      |
