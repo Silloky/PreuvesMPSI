@@ -1,14 +1,14 @@
 ---
-anki_linked: 0
+anki_linked: 1
 raisonnements:
   - absurde
 outils:
   - suites
 kh_n:
   - "7"
-display_title: Théorème du passage à la limite
+display_title: Théorème du passage à la limite (suites)
 ---
-# Théorème du passage à la limite
+# Théorème du passage à la limite (suites)
 
 > [!objectif]
 > Si une suite $(u_{n})$ tend vers $l$ et que $u_{n}\leq M\;APCR$, alors $l\leq M$
