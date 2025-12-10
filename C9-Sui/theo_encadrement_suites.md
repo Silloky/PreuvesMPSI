@@ -5,9 +5,9 @@ outils:
   - suites
 kh_n:
   - "7"
-display_title: Théorème des gendarmes
+display_title: Théorème d'encadrement (suites)
 ---
-# Théorème d'encadrement
+# Théorème d'encadrement (suites)
 
 > [!objectif]
 > $$
@@ -17,6 +17,7 @@ w_{n}\to l \\
 u_{n}\leq v_{n} \leq w_{n} \; APCR
 \end{cases} \implies v_{n} \to l
 $$
+
 ### Démonstration
 
 *On suppose les hypothèses vérifiées.*
