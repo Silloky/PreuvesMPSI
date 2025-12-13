@@ -47,7 +47,7 @@ Et aussi, il y a une infinité de termes dans $[a_{n+1},b_{n+1}]$, donc il exist
 
 Les suites $(a_{n})$ et $(b_{n})$ ainsi construites sont adjacentes (car l'une est croissante, l'autre décroissante, et que $b_{n}-a_{n}\to 0$).
 Donc elles convergent vers une même limite qu'on note $l$.
-Ainsi, pour tout $n\in \mathbb{N}, a_{n}\leq u_{\varphi(n)}\leq b_{n}$, donc par [[theo_encadrement|encadrement]], $u_{\varphi(n)}\to l\in[a,b]$
+Ainsi, pour tout $n\in \mathbb{N}, a_{n}\leq u_{\varphi(n)}\leq b_{n}$, donc par [[theo_encadrement_suites|encadrement]], $u_{\varphi(n)}\to l\in[a,b]$
 
 
 #### Remarques

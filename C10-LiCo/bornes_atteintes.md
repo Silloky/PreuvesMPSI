@@ -23,7 +23,7 @@ Autrement dit, $(P):\forall M\in \mathbb{R},\exists x \in[a,b],f(x)> M$
 
 Pour tout $n\geq 1$, $P$ appliqué à $M=n$, donc il existe un réel noté $x_{n}\in[a,b]$ tel que $f(u_{n})> n$.
 $(u_{n})$ est bornée, donc d'après [[bolzano_weierstrass|Bolzano-Weierstrass]], il existe une extraction $\varphi$ telle que $(x_{\varphi(n)})$ converge ; on note $l$ sa limite.
-Pour tout $n\in \mathbb{N}$, $a\leq u_{\varphi(n)}\leq b$ donc par [[theo_passage_lim|passage à la limite]] $a\leq l\leq b$.
+Pour tout $n\in \mathbb{N}$, $a\leq u_{\varphi(n)}\leq b$ donc par [[theo_passage_lim_suites|passage à la limite]] $a\leq l\leq b$.
 
 $u_{\varphi(n)}\to l$ et $f$ est continue sur $[a,b]$. Donc puisque $l\in[a,b]$, $f(u_{\varphi(n)})\to f(l)$.
 Or d'après notre construction de $(u_{n})$, $\forall n\in \mathbb{N},f(u_{\varphi(n)})>\varphi(n)\geq n$ donc $f(u_{\varphi(n)})\to +\infty$.

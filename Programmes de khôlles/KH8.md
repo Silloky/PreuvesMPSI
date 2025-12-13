@@ -6,9 +6,9 @@
 
 ![[operations_lim_suites]]
 
-![[theo_passage_lim]]
+![[theo_passage_lim_suites]]
 
-![[theo_encadrement]]
+![[theo_encadrement_suites]]
 
 ![[theo_lim_monotone_suites]]
 
