@@ -1,13 +1,14 @@
 ---
-anki_linked: 0
+anki_linked: 1
 raisonnements:
 outils:
   - suites
+  - limites
 kh_n:
   - "7"
 display_title: Théorème de comparaison
 ---
-# Théorème de comparaison (du gendarme)
+# Théorème de comparaison
 
 > [!objectif]
 > $$
