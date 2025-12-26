@@ -14,14 +14,14 @@ display_title: Inégalité des pentes
 > 
 > "$f$ convexe sur $I$" $\iff$ :
 >$$
-> \forall(a,b,c)\in I^3, a\leq b\leq c\implies \frac{f(b)-f(a)}{b-a}\leq \frac{f(c)-f(a)}{c-a}\leq \frac{f(c)-f(b)}{c-b}
+> \forall(a,b,c)\in I^3, a< b< c\implies \frac{f(b)-f(a)}{b-a}\leq \frac{f(c)-f(a)}{c-a}\leq \frac{f(c)-f(b)}{c-b}
 > $$
 ### Démonstration
 
 ***Sens $\implies$***:
 
 On suppose $f$ convexe sur $I$.
-Soit $(a,b,c)\in I^{3}$. On suppose $a\leq b \leq c$.
+Soit $(a,b,c)\in I^{3}$. On suppose $a<b< c$.
 
 On a $b\in[a,c]$ donc il existe $\lambda \in[0,1]$ tel que $b=\lambda a+(1-\lambda)c$.
 Or $f$ est convexe sur $I$, et $b\in[a,c]\subset I$, donc $f(b)=f(\lambda a+(1-\lambda)c)\leq\lambda f(a)+(1-\lambda)f(c)$.
