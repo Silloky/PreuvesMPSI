@@ -40,7 +40,7 @@ $$
 $$
 Or $f$ est dérivable sur $[a,b]$, donc continue sur $[a,b]$ et dérivable sur $]a,b[$ donc il existe $c \in]a,b[$ tel que $f'(c)=\frac{f(b)-f(a)}{b-a}$
 On a $c\in[a,b]$, donc il existe $\lambda_{0} \in[0,1]$ tel que $c=\lambda_{0} a+(1-\lambda_{0})b$.
-Donc $g'(\lambda_{0})=f(a)-f(b)-(a-b)f'(c)=f(a)-f(b)-(a-b)\times \frac{f(a)-f(b)}{a-b}=0$, et $g'$ s'annule en $c$.
+Donc $g'(\lambda_{0})=f(a)-f(b)-(a-b)f'(c)=f(a)-f(b)-(a-b)\times \frac{f(a)-f(b)}{a-b}=0$, et $g'$ s'annule en $\lambda_{0}$.
 
 De plus, pour tout $\lambda \in[\lambda_{0},1]$, $\lambda_{0}a+(1-\lambda)b\leq \lambda a+(1-\lambda)b$, or $f'$ est croissante sur $[a,b]$ donc $f'(\lambda_{0}a+(1-\lambda_{0})b)\leq f'(\lambda a+(1-\lambda)b)$, donc $g'(\lambda)\leq 0$.
 De même, pour tout $\lambda \in[0,\lambda_{0}]$, $g'$ est positif.
