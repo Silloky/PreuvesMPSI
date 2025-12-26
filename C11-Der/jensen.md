@@ -22,8 +22,9 @@ display_title: Inégalité de Jensen
 > $$
 > Ou avec des sommes :
 > $$
-\sum_{k=1}^n\lambda_{k}=1\implies f\left( \sum_{k=1}^n\lambda_{n}x_{n} \right) \leq \sum_{k=1}^n\lambda_{k}f(x_{k})
-$$
+> \sum_{k=1}^n\lambda_{k}=1\implies f\left( \sum_{k=1}^n\lambda_{n}x_{n} \right) \leq \sum_{k=1}^n\lambda_{k}f(x_{k})
+> $$
+
 ### Démonstration
 
 Pour tout $n\in \mathbb{N}^*$, on pose $H_{n}$ : "$\forall(x_{1},\dots,x_{n})\in I^n, \forall(\lambda_{1},\dots,\lambda_{n})\in(\mathbb{R}_{+})^n, \sum_{k=1}^n\lambda_{k}=1 \implies f\left( \sum_{k=1}^n \lambda_{k}x_{k}\right)\leq \sum_{k=1}^n\lambda_{k}f(x_{k})$"
