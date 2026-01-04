@@ -22,7 +22,7 @@ display_title: Parité et DL
 ### Démonstration
 
 On peut écrire :
-$f(-x)\underset{ 0 }{ = }a_{0}-a_{1}x+a_{3}x^{2}+\dots+(-1)^n a_{n}x^n$.
+$f(-x)\underset{ 0 }{ = }a_{0}-a_{1}x+a_{2}x^{2}+\dots+(-1)^n a_{n}x^n$.
 
 ***Si $f$ est paire*** :
 On a alors, pour tout $x$, $f(-x)=f(x)$.
@@ -43,7 +43,7 @@ a_{k}=0
 $$
 Ainsi tous les coefficients de rang impair sont nuls, et :
 $$
-f(x)\underset{ 0 }{ = }a_{0}+a_{2}x^2+a^4x^4+\dots+o(x^n)
+f(x)\underset{ 0 }{ = }a_{0}+a_{2}x^2+a_4x^4+\dots+o(x^n)
 $$
 ***Si $f$ est impaire*** :
 On a, pour tout $x$, $f(-x)=-f(x)$.
