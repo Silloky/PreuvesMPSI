@@ -17,6 +17,17 @@ display_title: Croissance comparée p^n/n!
 
 ### Démonstration
 
+##### 1. Algébriquement
+
+Il existe un rang $N\in \mathbb{N}$ tel que pour tout entier $k\geq N$, $k\geq 2p$, d'où $\frac{p}{k}\leq \frac{1}{2}$.
+Donc pour tout $n \in \mathbb{N}$ :
+$$
+\frac{p^n}{n!}= \prod_{k=1}^n \frac{p}{k}=\left( \prod_{k=1}^{N-1} \frac{p}{k} \right)\left( \prod_{k=N}^n \frac{p}{k}\right)\leq \left( \prod_{k=1}^{N-1} \frac{p}{k} \right) \times \frac{1}{2^{n-N}}\xrightarrow[n\to +\infty]{}0 
+$$
+Or le produit est positif, donc par encadrement, $\frac{p^n}{n!}\xrightarrow[]{}0$.
+
+##### 2. Par récurrence
+
 Soit $p>1$.
 Pour tout $n\in \mathbb{N}$, on pose $u_{n}=\frac{p^n}{n!}>0$.
 Pour tout $n\in \mathbb{N}, \frac{u_{n+1}}{u_{n}}=\frac{p}{n+1}$
