@@ -12,13 +12,15 @@ display_title: Distributivité du produit matriciel
 > [!objectif]
 >$$
 >\begin{gather}
-\forall(n,p,q)\in (\mathbb{N}^*)^{3},\forall A\in \mathcal{M}_{n,p}(\mathbb{K}), \forall(B,C)\in \mathcal{M}_{p,q}(\mathbb{K}), \\  \\\begin{cases}
+\forall(n,p,q)\in (\mathbb{N}^*)^{3},\forall A\in \mathcal{M}_{n,p}(\mathbb{K}), \forall(B,C)\in \mathcal{M}_{p,q}(\mathbb{K})^2, \\  \\\begin{cases}
 A(B+C)=AB+AC \\
 (B+C)A=BA+CA
 \end{cases}
 \end{gather}
 > $$
 ### Démonstration
+
+Soit $(n,p,q)\in(\mathbb{N}^*)^{3}$ et $A\in \mathcal{M}_{n,p}(\mathbb{K})$, $(B,C)\in \mathcal{M}_{p,q}(\mathbb{K})^{2}$.
 
 $B$ et $C$ sont de taille $(p,q)$ donc $B+C$ est de taille $(p,q)$.
 Or $A$ est de taille $(n,p)$, donc $A(B+C)$ existe et est de taille $(p,q)$.
